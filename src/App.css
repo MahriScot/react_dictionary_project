@@ -3,7 +3,7 @@
   border-radius: 4px;
   margin: 10px auto 5px;
   padding: 0 10px 10px;
-  max-width: 800px;
+  max-width: 750px;
 }
 
 .App-header {
@@ -16,8 +16,31 @@
   margin: 0 auto;
 }
 
-footer {
+main {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.what_word {
   text-align: center;
   margin: 0 auto;
+  padding: 0 0 20px;
+}
+
+.Dictionary {
+  margin: 0 15px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 auto;
   padding: 10px 0;
+}
+
+.me {
+  color: #00aaa0;
+}
+
+.github_and_netlify {
+  color: #007cb9;
 }
