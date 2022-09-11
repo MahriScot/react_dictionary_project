@@ -1,2 +1,19 @@
 .Dictionary {
+  margin: 0 15px;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+.searched_word {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.part_of_speech {
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 10px;
 }
