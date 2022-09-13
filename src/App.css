@@ -1,3 +1,7 @@
+body {
+  background-color: #e9e2d0;
+}
+
 .container {
   border: 1px solid black;
   border-radius: 4px;
@@ -26,6 +30,9 @@ main {
   padding: 0 0 20px;
 }
 
+a {
+  color: #6c5b7c;
+}
 footer {
   text-align: center;
   font-size: 14px;
