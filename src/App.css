@@ -10,29 +10,17 @@ body {
   max-width: 750px;
 }
 
-.App-header {
-  margin: 5px;
-}
-
 .App-logo {
   max-width: 150px;
   display: block;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 main {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.what_word {
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 0 20px;
-}
-
-a {
-  color: #6c5b7c;
-}
 footer {
   text-align: center;
   font-size: 14px;

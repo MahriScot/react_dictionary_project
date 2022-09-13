@@ -14,8 +14,7 @@ export default function App() {
           />
         </header>
         <main>
-          <h2 className="what_word">What word are you looking for?</h2>
-          <Dictionary className="Dictionary" defaultKeyword="hello" />
+          <Dictionary className="Dictionary" defaultKeyword="cheers" />
         </main>
       </div>
       <footer>

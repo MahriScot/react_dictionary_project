@@ -6,33 +6,35 @@
 .Dictionary section {
   background-color: #eeeeee;
   border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
   padding: 15px;
   margin-bottom: 15px;
 }
 
+.what_word {
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 5px 0 15px;
+}
+
 .search_button {
+  font-size: 18px;
   width: 100%;
   padding: 5px;
   border: 1px solid #ddddc7;
   background-color: #eeeeee;
   border-radius: 5px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 15px 0px;
+  transition: all 100ms ease-in-out;
+}
+
+.search_button:hover {
+  border: 2px solid #ddddc7;
 }
 
 .hint {
-  font-size: 14px;
+  font-size: 15px;
   padding: 4px 15px 0;
-}
-
-.searched_word {
-  text-transform: capitalize;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-
-.part_of_speech {
-  text-transform: capitalize;
-  font-weight: 500;
-  padding: 10px;
+  opacity: 0.9;
 }
