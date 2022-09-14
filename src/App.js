@@ -11,7 +11,7 @@ export default function App() {
       </header>
       <div className="container">
         <main>
-          <Dictionary className="Dictionary" defaultKeyword="search" />
+          <Dictionary className="Dictionary" defaultKeyword="smile" />
         </main>
       </div>
       <footer>
