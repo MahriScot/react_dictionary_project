@@ -4,9 +4,11 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="images/dictionary.png" alt="dictionary" width="45"></img>
-        <h1 className="header">Dictionary</h1>
+      <header className="app_header">
+        <span>
+          <img src="images/dictionary.png" alt="dictionary" width="45"></img>
+        </span>
+        <h1>Dictionary</h1>
       </header>
       <div className="container">
         <main>
