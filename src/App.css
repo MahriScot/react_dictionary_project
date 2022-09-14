@@ -10,19 +10,13 @@ body {
   max-width: 900px;
 }
 
-.App-logo {
-  max-width: 150px;
-  display: block;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
 .app_header {
   color: #6e5773;
   text-align: center;
   margin: 0 auto;
   padding: 15px 15px 5px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
   line-height: 1.5;
 }
 
