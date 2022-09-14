@@ -5,14 +5,13 @@ export default function App() {
   return (
     <div className="App">
       <header className="app_header">
-        <span>
-          <img src="images/dictionary.png" alt="dictionary" width="45"></img>
-        </span>
+        <img src="images/dictionary.png" alt="dictionary" width="45"></img>
+        <br />
         <h1>Dictionary</h1>
       </header>
       <div className="container">
         <main>
-          <Dictionary className="Dictionary" defaultKeyword="welcome" />
+          <Dictionary className="Dictionary" defaultKeyword="search" />
         </main>
       </div>
       <footer>

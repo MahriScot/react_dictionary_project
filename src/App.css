@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  border: 1px solid black;
+  border: 1px solid #6e5773;
   border-radius: 4px;
   margin: 10px auto 5px;
   padding: 0 10px 10px;
@@ -21,7 +21,7 @@ body {
   color: #6e5773;
   text-align: center;
   margin: 0 auto;
-  padding: 15px;
+  padding: 15px 15px 5px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.5;
 }
