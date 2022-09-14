@@ -1,18 +1,14 @@
-import logo_long_no_name from "./logo_long_no_name.png";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
+      <header className="App-header">
+        <img src="images/dictionary.png" alt="dictionary" width="45"></img>
+        <h1 className="header">Dictionary</h1>
+      </header>
       <div className="container">
-        <header className="App-header">
-          <img
-            src={logo_long_no_name}
-            className="img-fluid App-logo"
-            alt="logo"
-          />
-        </header>
         <main>
           <Dictionary className="Dictionary" defaultKeyword="welcome" />
         </main>

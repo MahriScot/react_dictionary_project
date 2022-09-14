@@ -17,6 +17,13 @@ body {
   padding-top: 10px;
 }
 
+h1 {
+  color: #6e5773;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 main {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
